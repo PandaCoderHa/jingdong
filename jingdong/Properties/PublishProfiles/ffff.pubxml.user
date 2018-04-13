@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\panda\Desktop\京东网页\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="01.html">
+      <publishTime>11/30/2016 21:57:28</publishTime>
+    </File>
+    <File Include="02.html">
+      <publishTime>12/01/2016 20:26:49</publishTime>
+    </File>
+    <File Include="0222222.html">
+      <publishTime>12/01/2016 19:53:47</publishTime>
+    </File>
+    <File Include="03.html">
+      <publishTime>12/01/2016 20:48:22</publishTime>
+    </File>
+    <File Include="032.html">
+      <publishTime>12/01/2016 21:13:33</publishTime>
+    </File>
+    <File Include="04.html">
+      <publishTime>12/01/2016 21:22:01</publishTime>
+    </File>
+    <File Include="05.html">
+      <publishTime>12/01/2016 21:29:48</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.docx">
+      <publishTime>12/01/2016 20:02:26</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.files/colorschememapping.xml">
+      <publishTime>12/01/2016 21:35:28</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.files/filelist.xml">
+      <publishTime>12/01/2016 21:35:28</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.files/header.htm">
+      <publishTime>12/01/2016 21:35:28</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.files/image001.png">
+      <publishTime>12/01/2016 21:35:28</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.files/image002.gif">
+      <publishTime>12/01/2016 21:35:28</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.files/item0001.xml">
+      <publishTime>12/01/2016 21:35:28</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.files/props002.xml">
+      <publishTime>12/01/2016 21:35:28</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.files/themedata.thmx">
+      <publishTime>12/01/2016 21:35:28</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.htm">
+      <publishTime>12/01/2016 21:35:28</publishTime>
+    </File>
+    <File Include="1-自营业务概绍.html">
+      <publishTime>11/30/2016 23:12:12</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>11/29/2016 17:31:46</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>11/29/2016 17:31:46</publishTime>
+    </File>
+    <File Include="bin/jingdong.dll">
+      <publishTime>12/01/2016 23:15:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>06/06/2016 15:40:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>06/06/2016 10:45:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>06/06/2016 10:42:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>11/29/2016 18:22:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>11/29/2016 18:22:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>11/29/2016 18:22:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>11/29/2016 18:22:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/29/2016 18:22:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>11/29/2016 18:22:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/29/2016 18:22:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>11/29/2016 18:22:58</publishTime>
+    </File>
+    <File Include="Content/main.css">
+      <publishTime>11/30/2016 20:50:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/29/2016 18:22:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/29/2016 18:22:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/29/2016 18:22:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/29/2016 18:22:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/29/2016 18:22:57</publishTime>
+    </File>
+    <File Include="imgs/02-01.png">
+      <publishTime>11/30/2016 21:30:45</publishTime>
+    </File>
+    <File Include="imgs/bbb.jpg">
+      <publishTime>12/01/2016 21:45:57</publishTime>
+    </File>
+    <File Include="imgs/index.jpg">
+      <publishTime>11/30/2016 20:54:59</publishTime>
+    </File>
+    <File Include="imgs/TimLine.png">
+      <publishTime>10/12/2016 11:30:50</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>12/01/2016 23:05:38</publishTime>
+    </File>
+    <File Include="MuLu.html">
+      <publishTime>12/01/2016 21:57:24</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/29/2016 19:18:42</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.19-build00125.js">
+      <publishTime>11/29/2016 17:31:48</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.19-build00125.min.js">
+      <publishTime>11/29/2016 17:31:48</publishTime>
+    </File>
+    <File Include="scripts/bootstrap.js">
+      <publishTime>11/29/2016 18:22:57</publishTime>
+    </File>
+    <File Include="scripts/bootstrap.min.js">
+      <publishTime>11/29/2016 18:22:57</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.11.3.js">
+      <publishTime>11/29/2016 19:18:41</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.11.3.min.js">
+      <publishTime>11/29/2016 19:18:41</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.11.3.min.map">
+      <publishTime>11/29/2016 19:18:41</publishTime>
+    </File>
+    <File Include="scripts/main.js">
+      <publishTime>12/01/2016 23:14:05</publishTime>
+    </File>
+    <File Include="scripts/screenfull.min.js">
+      <publishTime>12/01/2016 22:27:12</publishTime>
+    </File>
+    <File Include="test.html">
+      <publishTime>12/01/2016 20:46:08</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/29/2016 21:58:22</publishTime>
+    </File>
+    <File Include="京东开放平台1.docx">
+      <publishTime>12/01/2016 21:08:39</publishTime>
+    </File>
+    <File Include="京东开放平台1.files/colorschememapping.xml">
+      <publishTime>12/01/2016 21:08:50</publishTime>
+    </File>
+    <File Include="京东开放平台1.files/filelist.xml">
+      <publishTime>12/01/2016 21:08:50</publishTime>
+    </File>
+    <File Include="京东开放平台1.files/header.htm">
+      <publishTime>12/01/2016 21:08:50</publishTime>
+    </File>
+    <File Include="京东开放平台1.files/item0001.xml">
+      <publishTime>12/01/2016 21:08:50</publishTime>
+    </File>
+    <File Include="京东开放平台1.files/props002.xml">
+      <publishTime>12/01/2016 21:08:50</publishTime>
+    </File>
+    <File Include="京东开放平台1.files/themedata.thmx">
+      <publishTime>12/01/2016 21:08:50</publishTime>
+    </File>
+    <File Include="京东开放平台1.htm">
+      <publishTime>12/01/2016 21:08:50</publishTime>
+    </File>
+    <File Include="京东开放平台2.docx">
+      <publishTime>12/01/2016 21:12:54</publishTime>
+    </File>
+    <File Include="京东开放平台2.files/colorschememapping.xml">
+      <publishTime>12/01/2016 21:13:09</publishTime>
+    </File>
+    <File Include="京东开放平台2.files/filelist.xml">
+      <publishTime>12/01/2016 21:13:09</publishTime>
+    </File>
+    <File Include="京东开放平台2.files/header.htm">
+      <publishTime>12/01/2016 21:13:09</publishTime>
+    </File>
+    <File Include="京东开放平台2.files/item0001.xml">
+      <publishTime>12/01/2016 21:13:09</publishTime>
+    </File>
+    <File Include="京东开放平台2.files/props002.xml">
+      <publishTime>12/01/2016 21:13:09</publishTime>
+    </File>
+    <File Include="京东开放平台2.files/themedata.thmx">
+      <publishTime>12/01/2016 21:13:09</publishTime>
+    </File>
+    <File Include="京东开放平台2.htm">
+      <publishTime>12/01/2016 21:13:09</publishTime>
+    </File>
+    <File Include="品控概绍.docx">
+      <publishTime>12/01/2016 21:20:39</publishTime>
+    </File>
+    <File Include="品控概绍.files/colorschememapping.xml">
+      <publishTime>12/01/2016 21:21:02</publishTime>
+    </File>
+    <File Include="品控概绍.files/filelist.xml">
+      <publishTime>12/01/2016 21:21:02</publishTime>
+    </File>
+    <File Include="品控概绍.files/header.htm">
+      <publishTime>12/01/2016 21:21:02</publishTime>
+    </File>
+    <File Include="品控概绍.files/item0001.xml">
+      <publishTime>12/01/2016 21:21:02</publishTime>
+    </File>
+    <File Include="品控概绍.files/props002.xml">
+      <publishTime>12/01/2016 21:21:02</publishTime>
+    </File>
+    <File Include="品控概绍.files/themedata.thmx">
+      <publishTime>12/01/2016 21:21:02</publishTime>
+    </File>
+    <File Include="品控概绍.htm">
+      <publishTime>12/01/2016 21:21:02</publishTime>
+    </File>
+    <File Include="商品管理流程概绍.docx">
+      <publishTime>12/01/2016 21:30:31</publishTime>
+    </File>
+    <File Include="商品管理流程概绍.files/colorschememapping.xml">
+      <publishTime>12/01/2016 21:30:44</publishTime>
+    </File>
+    <File Include="商品管理流程概绍.files/filelist.xml">
+      <publishTime>12/01/2016 21:30:44</publishTime>
+    </File>
+    <File Include="商品管理流程概绍.files/header.htm">
+      <publishTime>12/01/2016 21:30:44</publishTime>
+    </File>
+    <File Include="商品管理流程概绍.files/item0001.xml">
+      <publishTime>12/01/2016 21:30:44</publishTime>
+    </File>
+    <File Include="商品管理流程概绍.files/props002.xml">
+      <publishTime>12/01/2016 21:30:44</publishTime>
+    </File>
+    <File Include="商品管理流程概绍.files/themedata.thmx">
+      <publishTime>12/01/2016 21:30:44</publishTime>
+    </File>
+    <File Include="商品管理流程概绍.htm">
+      <publishTime>12/01/2016 21:30:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

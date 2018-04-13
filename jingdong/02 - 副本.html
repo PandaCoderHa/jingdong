@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="scripts/jquery-1.11.3.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <link href="Content/main.css" rel="stylesheet" />
+    <script src="scripts/main.js"></script>
+
+    <script src="ueditor/ueditor.config.js"></script>
+    <script src="ueditor/ueditor.all.min.js"></script>
+    <script src="ueditor/lang/zh-cn/zh-cn.js"></script>
+
+
+    <script>
+        $(function () {
+            //console.log($.ajax({url:'./02.data',async:false}))
+            //$.get('02.txt',function (data) {
+            //     console.log(data);
+            //     $("#dataDiv").html(data);
+            // });
+
+            // var iframe =  $("iframe").get(0);
+            // if (iframe.attachEvent) {
+            //     iframe.attachEvent("onload", function () {
+            //         console.log(this.document);
+            //     });
+            // } else {
+            //     iframe.onload = function () {
+            //         console.log(this.document);
+            //         //iframe加载完成后你需要进行的操作
+            //     };
+            // }
+
+            // $("#dataDiv").html(readFile('02.txt'));
+
+        })
+        function iFrameHeight() {
+            var ifm = document.getElementById("mainweb");
+            var subWeb = document.frames ? document.frames["mainweb"].document :
+            ifm.contentDocument;
+            console.log(subWeb);
+            if (ifm != null && subWeb != null) {
+                ifm.height = subWeb.body.scrollHeight;
+            }
+        }
+        // function readFile(filename){
+        //     var fso = new ActiveXObject("Scripting.FileSystemObject");
+        //     var f = fso.OpenTextFile(filename,1);
+        //     var s = "";
+        //     while (!f.AtEndOfStream)
+        //         s += f.ReadLine()+"/n";
+        //     f.Close();
+        //     return s;
+        // }
+    </script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="container-fluid head">
+        <div class="container">
+            <div class="col-xs-10 col-xs-offset-1">
+                <div class="row headTitle">
+                    <div class="col-lg-12">
+                        <span>京东商城事业部新员工专业力宝典</span>
+                        <div style="width:110px; float:right; text-align:right;">
+                            <span class="glyphicon glyphicon-th-list"></span>
+                            <span id="menu" style="cursor:pointer">目录</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 content">
+                <div class="row title">
+                    <span style="font-size:30px; border-right:solid thin black">02&nbsp;</span><span>&nbsp;<b>自营业务概绍</b></span>
+                </div>
+                <div class="row" style="margin-top:20px;">
+                    <div id="dataDiv" class="col-lg-12" style="height:800px;">
+                        <!--<img src="imgs/0001.jpg" style="width:100%"/>-->
+                        <!--<iframe id="mainweb" src="1-自营业务概绍.htm" width="100%" height="100%" style="border:none" scrolling="auto"></iframe>-->
+                        <table><tbody><tr class="firstRow"><td width="483" valign="top"><br /></td><td width="483" valign="top"><br /></td></tr></tbody></table><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">自营</span></p><p><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"></span></p></li></ul><p style="margin-top: 5px;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自营业务是指京东先行将货物的所有权及物权转至京东名下，京东可自行定义销售价格的合作模式。</span>微软雅黑 小五号字</p><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p>供应商入驻</p></li></ul><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;1. &nbsp; 品牌选择：</span></p><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a)<span class="Apple-tab-span" styl...n class="Apple-tab-span" style="white-space:pre"></span>供应商结算与返利</p><p>1.<span class="Apple-tab-span" style="white-space:pre"></span>结算是指按照合同、结算条款完成与供应商往来账目核对与付款，通过账期结算，实销实结，预付款三种结算方式实现，具体可参照本宝典中《结算介绍》。</p><p>2.<span class="Apple-tab-span" style="white-space:pre"></span>与供应商协商约定的返利，必须清晰、明确、严谨、细致，避免模糊、异议条款；无论是合同内还是合同外返利需及时报备返利岗备案，并确保返利及时、准确回收。</p><p><span class="Apple-tab-span" style="white-space:pre"></span>供应商清场</p><p>1.<span class="Apple-tab-span" style="white-space:pre"></span>清场：</p><p>合同期间或合同期满，京东或供应商任何一方因故提出终止合作关系。</p><p>2.<span class="Apple-tab-span" style="white-space:pre"></span>清场标准：</p><p>因各种原因与京东合作业务无法长期健康运行；双方视情况终止合作，京东启动清场流程。</p><p>3.<span class="Apple-tab-span" style="white-space:pre"></span>清场注意事项：</p><p>确认该供应商未完成采购订单的情况，确认该供应商返利收回情况，确认该供应商的库存处理方式及售后处理方式，确认该供应商是否存在倒挂（资不抵债，供应商的应收与应付不平）的情况。</p><p><br /></p><p>更多自营供应商管理相关内容，请查看：http://wenku.jd.com/public_doc/public_folder_goto?folderId=10814</p><p>-京东营销体系供应商管理制度V1 （JMS-RUS-15004）</p><p>如想了解更多内容，可向本部门同事咨询。</p><p><br /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="editDiv" style="width:1024px; margin:0 auto">
+        <hr />
+        <button id="saveData" onclick="save_record()">保存</button>
+        <script id="editor" type="text/plain" style="height:500px;">
+        </script>
+    </div>
+    <script>
+        //$("editDiv").css('display', 'block');
+        if (window.location.search == '?edit') {
+            var ue = UE.getEditor('editor');
+            setTimeout(function () {
+                console.log(ue)
+                ue.setContent($("#dataDiv").html())
+            }, 1500);
+        }
+        function save_record() {
+            $("#dataDiv").html(ue.getContent());
+        }
+    </script>
+
+</body>
+
+</html>

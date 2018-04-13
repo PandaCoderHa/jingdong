@@ -1,0 +1,136 @@
+﻿body {
+    margin: 0px;
+    background-color: rgb(235,235,235);
+}
+
+.head {
+    background-color: rgb(230,0,18);
+    color: white;
+    line-height: 60px;
+    height: 60px;
+}
+
+.headTitle {
+    font-size: 16px;
+}
+
+    .headTitle div {
+        padding-left: 0px;
+    }
+
+.content {
+    margin-top: 20px;
+    background-color: white;
+    min-width:960px;
+}
+
+.title {
+    margin-top: 40px;
+    border-left: solid rgb(188,0,15) 20px;
+    border-right: solid rgb(188,0,15) 5px;
+    color: black;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.muluA dl dt {
+    color: rgb(188,0,15);
+    font-size: large;
+}
+
+.muluA dl dd {
+    margin-left: 165px;
+}
+
+    .muluA dl dd a {
+        border-left: 2px black solid;
+        padding-left: 10px;
+        color: black;
+        font-size: 12px;
+    }
+
+        .muluA dl dd a:hover {
+            border-left: 2px rgb(188,0,15) solid;
+            padding-left: 10px;
+            color: rgb(188,0,15);
+            cursor: pointer;
+        }
+
+.menuitem {
+}
+
+.ul {
+    list-style: square;
+}
+
+/*下拉菜单*/
+.popover-content {
+    padding: 0px;
+    width: 200px;
+}
+
+.list-group {
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+    .list-group a {
+        border-left: solid 6px white;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        color: rgb(152,152,152);
+        padding: 5px 10px;
+    }
+
+        .list-group a:hover {
+            border-left: solid 6px rgb(182,0,14);
+        }
+/*ddddddddd*/
+.btnPrev, .btnNext {
+    position: fixed;
+    top: 45%;
+    left: 5px;
+    z-index: 99999;
+    overflow: hidden;
+    display: none;
+}
+
+.btnNext {
+    left: auto;
+    right: 5px;
+}
+
+    .btnPrev a, .btnNext a {
+        width: 70px;
+        height: 105px;
+        display: block;
+        cursor: pointer;
+    }
+
+.btnPrev a {
+    background: url(http://icons.mydrivers.com/news/2014/images/btn-prev.png);
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://icons.mydrivers.com/news/2014/images/btn-prev.png");
+}
+
+    .btnPrev a:hover {
+        background: url(http://icons.mydrivers.com/news/2014/images/btn-prev-cur.png);
+        _background: none;
+        _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://icons.mydrivers.com/news/2014/images/btn-prev-cur.png");
+    }
+
+.btnNext a {
+    background: url(http://icons.mydrivers.com/news/2014/images/btn-next.png);
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://icons.mydrivers.com/news/2014/images/btn-next.png");
+}
+
+    .btnNext a:hover {
+        background: url(http://icons.mydrivers.com/news/2014/images/btn-next-cur.png);
+        _background: none;
+        _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://icons.mydrivers.com/news/2014/images/btn-next-cur.png");
+    }
